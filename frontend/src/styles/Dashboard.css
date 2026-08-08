@@ -1,0 +1,227 @@
+body{
+    margin:0;
+    background:#0d0d0d;
+    color:white;
+    font-family:Inter,sans-serif;
+}
+
+.dashboard{
+
+    max-width:950px;
+
+    margin:auto;
+
+    padding:40px 20px 80px;
+
+}
+
+.hero{
+
+    text-align:center;
+
+    margin-top:50px;
+
+}
+
+.hero h1{
+
+    font-size:64px;
+
+    color:#a855f7;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+
+}
+
+.hero p{
+
+    color:#9a9a9a;
+
+    font-size:22px;
+
+}
+
+.remaining{
+
+    margin:35px 0;
+
+    border:1px solid #9333ea;
+
+    border-radius:12px;
+
+    padding:15px;
+
+    background:#2a163f;
+
+    color:#c084fc;
+
+    font-weight:600;
+
+}
+
+.idea-box{
+
+    width:100%;
+
+    height:170px;
+
+    background:#1b1b1b;
+
+    color:white;
+
+    border:1px solid #333;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    font-size:18px;
+
+    resize:none;
+
+    box-sizing:border-box;
+
+}
+
+.validate-btn{
+
+    width:100%;
+
+    margin-top:30px;
+
+    padding:18px;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    color:white;
+
+    background:linear-gradient(
+        90deg,
+        #9333ea,
+        #c026d3
+    );
+
+    transition:0.3s;
+
+}
+
+.validate-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.validate-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+.remaining{
+
+    margin:35px 0;
+
+    padding:15px 20px;
+
+    border-radius:12px;
+
+    border:1px solid #9333ea;
+
+    background:#2a163f;
+
+    color:#c084fc;
+
+    font-weight:600;
+
+    font-size:18px;
+
+}
+
+.step-title{
+
+    margin-bottom:15px;
+
+    color:#a855f7;
+
+    font-size:20px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+}
+
+.idea-box{
+
+    width:100%;
+
+    height:170px;
+
+    background:#1b1b1b;
+
+    color:white;
+
+    border:1px solid #333;
+
+    border-radius:12px;
+
+    padding:18px;
+
+    font-size:18px;
+
+    resize:none;
+
+    box-sizing:border-box;
+
+}
+/* ---------- Tablet ---------- */
+
+@media (max-width:768px){
+
+    .dashboard{
+        padding:30px 20px 60px;
+    }
+
+    .hero{
+        margin-top:30px;
+    }
+
+    .hero h1{
+        font-size:48px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:480px){
+
+    .dashboard{
+        padding:20px 15px 50px;
+    }
+
+    .hero h1{
+        font-size:34px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+}

@@ -1,0 +1,159 @@
+.history-container{
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+    color: white;
+}
+
+.history-title{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:40px;
+    color:#ffffff;
+}
+
+.history-list{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.history-card{
+    background:#18181b;
+    border:1px solid #2a2a2a;
+    border-radius:18px;
+    padding:25px;
+    transition:.3s;
+}
+
+.history-card:hover{
+    transform:translateY(-3px);
+    border-color:#9333ea;
+    box-shadow:0 0 20px rgba(147,51,234,.2);
+}
+
+.history-idea{
+    font-size:24px;
+    color:#9333ea;
+    margin-bottom:12px;
+}
+
+.history-date{
+    color:#a1a1aa;
+    margin-bottom:20px;
+}
+
+.history-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.history-btn{
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.view-btn{
+    background:#9333ea;
+    color:white;
+}
+
+.download-btn{
+    background:#16a34a;
+    color:white;
+}
+
+.delete-btn{
+    background:#dc2626;
+    color:white;
+}
+
+.back-btn{
+    margin-top:40px;
+    background:#27272a;
+    color:white;
+    padding:14px 28px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.history-btn:hover,
+.back-btn:hover{
+    transform:translateY(-2px);
+}
+
+.empty-history{
+    text-align:center;
+    margin-top:80px;
+}
+
+.empty-history h2{
+    margin-bottom:25px;
+}
+
+/* ---------- Tablet ---------- */
+
+@media (max-width:768px){
+
+    .history-container{
+        padding:20px;
+    }
+
+    .history-title{
+        font-size:34px;
+    }
+
+    .history-card{
+        padding:20px;
+    }
+
+    .history-idea{
+        font-size:22px;
+    }
+
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:480px){
+
+    .history-container{
+        padding:15px;
+    }
+
+    .history-title{
+        font-size:28px;
+    }
+
+    .history-card{
+        padding:18px;
+    }
+
+    .history-idea{
+        font-size:18px;
+    }
+
+    .history-date{
+        font-size:14px;
+    }
+
+    .history-buttons{
+        flex-direction:column;
+    }
+
+    .history-btn{
+        width:100%;
+    }
+
+    .back-btn{
+        width:100%;
+    }
+
+}
