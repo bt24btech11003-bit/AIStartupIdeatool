@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "https://ai-startup-validator-api.onrender.com";
 
 export const validateIdea = async (idea, token) => {
   return axios.post(
